@@ -1,2 +1,2 @@
-print("gitt neww")
+print("gitt")
 exit(1)
