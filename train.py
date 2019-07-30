@@ -1,2 +1,2 @@
-print("gitt newwwww")
+print("gitt newwwww asdasd")
 exit(1)
