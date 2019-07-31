@@ -1,3 +1,2 @@
-print("git pull works also")
-print("also in rerun")
+print("bug check")
 exit(1)
