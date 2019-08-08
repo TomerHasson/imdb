@@ -2,7 +2,7 @@ import time
 from cnvrg import Experiment
 i = 0
 while True:
-    filename = "output\\test-{file_idx}.log".format(file_idx=i)
+    filename = "output/test-{file_idx}.log".format(file_idx=i)
     f = open(filename, "a")
     f.write("hello")
     f.close()
