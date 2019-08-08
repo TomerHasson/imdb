@@ -1,9 +1,9 @@
 import time
 import os
 from cnvrg import Experiment
+os.mkdir('output')
 i = 0
 while True:
-    os.mkdir('output')
     filename = "output/test-{file_idx}.log".format(file_idx=i)
     f = open(filename, "a")
     f.write("hello")
