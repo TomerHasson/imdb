@@ -2,7 +2,7 @@ import time
 import os
 from cnvrg import Experiment
 #os.mkdir('output')
-i = 0
+i = 10
 while True:
     filename = "output/test-{file_idx}.log".format(file_idx=i)
     f = open(filename, "a")
