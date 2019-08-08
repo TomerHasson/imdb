@@ -1,7 +1,7 @@
 import time
 import os
 from cnvrg import Experiment
-os.mkdir('output')
+#os.mkdir('output')
 i = 0
 while True:
     filename = "output/test-{file_idx}.log".format(file_idx=i)
