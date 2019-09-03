@@ -3,7 +3,7 @@ import os
 from cnvrg import Experiment
 i = 10
 while True:
-    filename = "outdir/test-{file_idx}.log".format(file_idx=i)
+    filename = "test-{file_idx}.log".format(file_idx=i)
     f = open(filename, "a")
     f.write("hello")
     f.close()
