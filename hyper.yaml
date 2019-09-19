@@ -1,0 +1,10 @@
+parameters:
+    - param_name: "learning_rate"
+      type: "discrete"
+      values: [0.1, 0.01 ,0.001]
+
+    # Categorical parameter is an array of string values
+    #
+    - param_name: "kernel"
+      type: "categorical"
+      values: ["linear", "rbf"]
